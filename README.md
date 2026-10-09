@@ -14,6 +14,5 @@ Jalankan class `Main` dari VS Code. Program membuat satu object dari setiap clas
 
 ## Screenshot
 
-Simpan screenshot hasil program di folder `screenshots`, lalu gunakan nama `hasil-program.png`.
 
 ![Hasil program](<SS/Screenshot 2026-10-09 204436.png>)
