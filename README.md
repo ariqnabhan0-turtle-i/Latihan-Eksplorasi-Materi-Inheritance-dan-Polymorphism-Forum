@@ -1,18 +1,19 @@
-## Getting Started
+# Program Bangun Datar dan Bangun Ruang
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Program Java sederhana untuk menampilkan informasi bentuk, lingkaran, bujur sangkar, dan silinder.
 
-## Folder Structure
+## Cara Menjalankan
 
-The workspace contains two folders by default, where:
+Jalankan class `Main` dari VS Code. Program membuat satu object dari setiap class dan memanggil `printInfo()`.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Konsep OOP
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- **Encapsulation:** `BujurSangkar` dan `Silinder` menyimpan atributnya sebagai `private` dan menyediakan getter serta setter. Atribut `warna` pada `Bentuk` masih `public`.
+- **Inheritance:** `Lingkaran` dan `BujurSangkar` mewarisi `Bentuk`. `Silinder` mewarisi `Lingkaran`.
+- **Polymorphism:** `BujurSangkar` dan `Silinder` meng-override `printInfo()`. Pemanggilan method tersebut menampilkan informasi sesuai jenis object.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Screenshot
 
-## Dependency Management
+Simpan screenshot hasil program di folder `screenshots`, lalu gunakan nama `hasil-program.png`.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+![Hasil program](<SS/Screenshot 2026-10-09 204436.png>)
